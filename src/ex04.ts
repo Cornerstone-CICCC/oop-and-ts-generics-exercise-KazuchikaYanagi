@@ -16,6 +16,6 @@ class Container<T> {
   };
 }
 
-const stringContainer = new Container("Initial Value");
+const stringContainer = new Container<string>("Initial Value");
 stringContainer.setValue("Updated Value");
 console.log(stringContainer.getValue()); // Expected output: "Updated Value"
